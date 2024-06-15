@@ -21,7 +21,7 @@ Body
 }
 ```
 
-### Champion
+### Champion *(On Progress)*
 
 `POST /auth/champion/signup`
 
