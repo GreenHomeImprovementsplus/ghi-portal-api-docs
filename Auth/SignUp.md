@@ -4,14 +4,14 @@
 
 `POST /auth/signup`
 
-Payload
+Body
 ```yaml
 {
-	"email": "gsmunited.tech@gmail.com",
+	"email": "user@email.com",
 	"password": "1234",
-	"firstName": "Brayan Jes",
-	"lastName": "Ontoy",
-	"phoneNumber": "09092809037",
+	"firstName": "John",
+	"lastName": "Doe",
+	"phoneNumber": "(123) 4567-8902",
 	"consultantType": [
 		{
 			"projectId": "662d09306ecb3ccf7a7fdf5a",
@@ -25,14 +25,14 @@ Payload
 
 `POST /auth/champion/signup`
 
-Payload
+Body
 ```yaml
 {
-	"email": "gsmunited.tech@gmail.com",
+	"email": "user@email.com",
 	"password": "1234",
-	"firstName": "Brayan Jes",
-	"lastName": "Ontoy",
-	"phoneNumber": "09092809037",
+	"firstName": "John",
+	"lastName": "Doe",
+	"phoneNumber": "(123) 4567-8902",
 	"consultantType": [
 		{
 			"projectId": "662d09306ecb3ccf7a7fdf5a",
