@@ -33,6 +33,7 @@ Body
 Body
 ```yaml
 {
+	"imgUrl": "https://website.com/avatar/image.jpg",
 	"email": "user@email.com",
 	"password": "1234",
 	"firstName": "John",
@@ -45,3 +46,14 @@ Body
 	"zipAddress": "9200"
 }
 ```
+
+### Upload Avatar
+
+`POST /cloud-storage/upload/avatar`
+
+Body
+
+	Multipart Form
+
+	Name: file
+	Value: image.jpg
